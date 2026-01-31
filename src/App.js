@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { Routes, Route, useLocation } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import Layout from "./components/layout/Layout";
+import ProtectedRoute from "./components/layout/ProtectedRoute";
+import Profile from "./pages/Profile";
+import NewPost from "./components/posts/NewPost";
+import EditPost from "./components/posts/EditPost";
+import PostDetail from "./components/posts/PostDetail";
+import '../src/styles/style.css'
+export default function App() {
+  const location = useLocation();
+  const background = location.state?.background;
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Toaster position="top-right" reverseOrder={false} />
+
+
+      <Routes location={background || location}>
+        <Route path="/login" element={<Login />} />
+
+        <Route element={<ProtectedRoute />}>
+          <Route element={<Layout />}>
+            <Route path="/" element={<Home />} />
+            <Route path="/profile" element={<Profile />} />
+            <Route path="/post" element={<NewPost />} />
+            <Route path="/posts/:postId/edit" element={<EditPost />} />
+            <Route path="/posts/:postId" element={<PostDetail />} />
+          </Route>
+        </Route>
+      </Routes>
+
+      {background && (
+        <Routes>
+          <Route
+            path="/posts/:postId"
+            element={<PostDetail modal />}
+          />
+        </Routes>
+      )}
+    </>
   );
 }
-
-export default App;
