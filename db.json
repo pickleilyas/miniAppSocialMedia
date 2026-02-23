@@ -1,0 +1,247 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "salma",
+      "avatar": "https://ui-avatars.com/api/?name=sara"
+    },
+    {
+      "id": "2",
+      "username": "houssam",
+      "avatar": "https://ui-avatars.com/api/?name=houssam"
+    },
+    {
+      "id": "3",
+      "username": "ilyass",
+      "avatar": "https://ui-avatars.com/api/?name=ilyass"
+    }
+  ],
+  "posts": [
+    {
+      "id": "f6fe",
+      "authorId": "2",
+      "content": "Découverte d’un petit café cosy en ville. Le cappuccino est à tomber ☕. L’ambiance est parfaite pour lire ou travailler tranquillement, et les croissants sont faits maison ! J’ai adoré le petit coin avec les plantes et les lumières tamisées, vraiment charmant.",
+      "image": "https://picsum.photos/id/7/4728/3168",
+      "likes": 9,
+      "likedBy": null,
+      "hashtags": [
+        "Café",
+        "Foodie",
+        "Cosy"
+      ],
+      "createdAt": "2026-01-28T19:13:33.555Z"
+    },
+    {
+      "id": "384b",
+      "authorId": "2",
+      "content": "Premier lever de soleil de l’année, un moment magique 🌅. La lumière dorée sur les collines est incroyable, et le calme du matin rend l’expérience encore plus spéciale. J’ai pris quelques photos pour immortaliser ce moment et je sens que c’est le début d’une belle année !",
+      "image": "https://picsum.photos/id/27/3264/1836",
+      "likes": 8,
+      "likedBy": null,
+      "hashtags": [
+        "Sunrise",
+        "Nature",
+        "Peaceful"
+      ],
+      "createdAt": "2026-01-28T19:13:37.658Z"
+    },
+    {
+      "id": "19fe",
+      "authorId": "2",
+      "content": "Lecture du dernier roman de mon auteur préféré 📖. Les personnages sont tellement bien développés et l’intrigue m’a tenu en haleine du début à la fin. Rien de tel qu’une bonne tasse de thé pour accompagner ce type de lecture cosy à la maison.",
+      "image": "https://picsum.photos/id/24/4855/1803",
+      "likes": 8,
+      "likedBy": null,
+      "hashtags": [
+        "Lecture",
+        "BookLover",
+        "Relax"
+      ],
+      "createdAt": "2026-01-28T19:13:41.086Z"
+    },
+    {
+      "id": "be77",
+      "authorId": "2",
+      "content": "Petit test de photographie urbaine avec mon nouveau smartphone 📱🏙️. J’ai exploré différents angles et perspectives dans la ville, et les résultats sont bluffants pour un téléphone. Les reflets dans l’eau et les jeux de lumière donnent un vrai rendu professionnel.",
+      "image": "https://picsum.photos/id/20/3670/2462",
+      "likes": 1003,
+      "likedBy": "1",
+      "hashtags": [
+        "Photographie",
+        "Ville",
+        "Smartphone"
+      ],
+      "createdAt": "2026-01-28T19:13:44.996Z"
+    },
+    {
+      "id": "b783",
+      "authorId": "1",
+      "content": "Balade au parc ce matin, tellement paisible 🌳✨. L’air frais, le chant des oiseaux et les arbres en fleurs rendent la promenade magique. J’ai même croisé quelques écureuils curieux et j’ai pris le temps de m’asseoir au bord du lac pour profiter du calme.",
+      "image": "https://picsum.photos/id/19/2500/1667",
+      "likes": 5,
+      "likedBy": "2",
+      "hashtags": [
+        "Nature",
+        "Relax",
+        "Balade"
+      ],
+      "createdAt": "2026-01-28T20:12:03.982Z"
+    },
+    {
+      "id": "c901",
+      "authorId": "3",
+      "content": "Session sport en plein air ce matin 💪🌤️. Rien de mieux qu’un peu d’exercice pour bien démarrer la journée. Le parc était calme et l’énergie au rendez-vous, ça motive vraiment à rester régulier !",
+      "image": "https://picsum.photos/id/104/3840/2160",
+      "likes": 5,
+      "likedBy": null,
+      "hashtags": [
+        "Sport",
+        "Motivation",
+        "Healthy"
+      ],
+      "createdAt": "2026-01-29T08:45:12.120Z"
+    },
+    {
+      "id": "c902",
+      "authorId": "3",
+      "content": "Soirée gaming entre amis 🎮🔥. Des fous rires, un peu de compétition et surtout de très bons moments partagés. Ça fait du bien de décompresser après une longue semaine.",
+      "image": "https://picsum.photos/id/96/4752/3168",
+      "likes": 7,
+      "likedBy": "3",
+      "hashtags": [
+        "Gaming",
+        "Friends",
+        "Fun"
+      ],
+      "createdAt": "2026-01-29T19:22:41.604Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "dacb",
+      "postId": "f6fe",
+      "authorId": "2",
+      "content": "J’y retournerai la semaine prochaine, ambiance top."
+    },
+    {
+      "id": "6359",
+      "postId": "f6fe",
+      "authorId": "1",
+      "content": "Il faudra que je teste ce café ! Merci pour la reco ☕"
+    },
+    {
+      "id": "f001",
+      "postId": "f6fe",
+      "authorId": "3",
+      "content": "Les photos donnent vraiment envie d’y aller 😍"
+    },
+    {
+      "id": "db8d",
+      "postId": "384b",
+      "authorId": "1",
+      "content": "Magnifique ! On dirait une carte postale 😮"
+    },
+    {
+      "id": "f002",
+      "postId": "384b",
+      "authorId": "3",
+      "content": "La lumière est parfaite, j’adore !"
+    },
+    {
+      "id": "f003",
+      "postId": "384b",
+      "authorId": "2",
+      "content": "C’était vraiment un moment unique ce matin."
+    },
+    {
+      "id": "f004",
+      "postId": "19fe",
+      "authorId": "1",
+      "content": "J’adore ce livre ! Il est sur ma liste à lire 😄"
+    },
+    {
+      "id": "f005",
+      "postId": "19fe",
+      "authorId": "3",
+      "content": "Merci pour la recommandation, je vais le commencer ce soir 📚"
+    },
+    {
+      "id": "f006",
+      "postId": "19fe",
+      "authorId": "2",
+      "content": "Tu vas adorer les passages sur les personnages secondaires !"
+    },
+    {
+      "id": "f007",
+      "postId": "be77",
+      "authorId": "1",
+      "content": "Tes photos sont vraiment impressionnantes !"
+    },
+    {
+      "id": "f008",
+      "postId": "be77",
+      "authorId": "3",
+      "content": "On dirait un vrai photographe professionnel 😎"
+    },
+    {
+      "id": "f009",
+      "postId": "be77",
+      "authorId": "2",
+      "content": "Merci ! J’adore expérimenter avec différents angles."
+    },
+    {
+      "id": "faca",
+      "postId": "b783",
+      "authorId": "2",
+      "content": "C’est vrai, ce parc est un petit havre de paix 🌿"
+    },
+    {
+      "id": "f010",
+      "postId": "b783",
+      "authorId": "3",
+      "content": "Ça donne envie de s’y promener aussi !"
+    },
+    {
+      "id": "f011",
+      "postId": "b783",
+      "authorId": "1",
+      "content": "Je vais y retourner ce week-end, merci pour l’inspiration !"
+    },
+    {
+      "id": "c101",
+      "postId": "c901",
+      "authorId": "1",
+      "content": "Bravo pour la motivation ! Le sport le matin, c’est le top 💪"
+    },
+    {
+      "id": "c102",
+      "postId": "c901",
+      "authorId": "2",
+      "content": "Ça donne envie de s’y remettre aussi 😄"
+    },
+    {
+      "id": "c103",
+      "postId": "c902",
+      "authorId": "1",
+      "content": "Quelle était la meilleure partie de la soirée ? 🎮"
+    },
+    {
+      "id": "c104",
+      "postId": "c902",
+      "authorId": "2",
+      "content": "Toujours partant pour une prochaine session ! 🔥"
+    },
+    {
+      "id": "c105",
+      "postId": "c903",
+      "authorId": "1",
+      "content": "Ça a l’air super bon 😋 tu partages la recette ?"
+    },
+    {
+      "id": "c106",
+      "postId": "c903",
+      "authorId": "2",
+      "content": "Respect, cuisiner maison ça demande du temps 👌"
+    }
+  ]
+}
